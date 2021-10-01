@@ -416,11 +416,13 @@
     var options = {
         width: 1280,
         height: 720,
-        channel: "esl_csgo",
-        video: "1127877825",
+        // channel: "esl_csgo",
+        channel: "rainbow6jp",
+        // video: "1127877825",
         // collection: "<collection ID>",
         // only needed if your site is also embedded on embed.example.com and othersite.example.com
         // parent: ["embed.example.com", "othersite.example.com"]
+        parent: "sol-tokyo.com",
     };
     var player = new Twitch.Player("stream", options);
     player.setVolume(0.5);
