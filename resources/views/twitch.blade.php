@@ -405,9 +405,12 @@
     <div
         class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
         <div id="video">
-            <iframe src="https://player.twitch.tv/?video=1127877825&parent=embed-esport.herokuapp.com&autoplay=false"
+            <iframe src="https://player.twitch.tv/?video=1127877825&autoplay=false"
                 height="720" width="1280" allowfullscreen="true">
             </iframe>
+            {{-- <iframe src="https://player.twitch.tv/?video=1127877825&parent=embed-esport.herokuapp.com&autoplay=false"
+                height="720" width="1280" allowfullscreen="true">
+            </iframe> --}}
         </div>
     </div>
     <div id="stream"></div>
